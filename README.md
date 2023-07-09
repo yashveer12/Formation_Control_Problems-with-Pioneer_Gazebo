@@ -14,18 +14,18 @@ To successfully run this project, the following dependencies need to be installe
 * Additional Python libraries (as required by specific algorithms)
 
 ## Simulations
-Learning ROS and Gazebo: Initially, we learnt the basics of ROS and Gazebo. This includes understanding ROS concepts, creating ROS nodes and packages, and launching simulations in Gazebo using the TurtleBot model.
+* Learning ROS and Gazebo: Initially, we learnt the basics of ROS and Gazebo. This includes understanding ROS concepts, creating ROS nodes and packages, and launching simulations in Gazebo using the TurtleBot model.
 
-Algorithm Development: Algorithms were implemented in Python to govern the autonomous agents. These algorithms focused on achieving desired patterns such as flocking, formation, and cooperative tasks. The implementation includes handling sensor data, decision-making, and control logic.
+* Algorithm Development: Algorithms were implemented in Python to govern the autonomous agents. These algorithms focused on achieving desired patterns such as flocking, formation, and cooperative tasks. The implementation includes handling sensor data, decision-making, and control logic.
 
-Simulation in Gazebo: The developed algorithms are then integrated with Gazebo to simulate the swarm behavior. Multiple instances of the TurtleBot model are used to represent the swarm. The simulations wererun in Gazebo, enabling visualization and analysis using tool like Rviz.
+* Simulation in Gazebo: The developed algorithms are then integrated with Gazebo to simulate the swarm behavior. Multiple instances of the TurtleBot model are used to represent the swarm. The simulations wererun in Gazebo, enabling visualization and analysis using tool like Rviz.
 
-Real-Time Implementations
+## Real-Time Implementations
 Pioneer 3DX Mobile Robot: The real-time implementations involved utilizing the Pioneer 3DX mobile robot. The developed algorithms are ported to the Pioneer 3DX platform to achieve similar swarm behavior observed in simulations.
 
 Multiple Robot Formation Patterns: The implementations focused on achieving different multiple robot formation patterns using the Pioneer 3DX robots. These patterns included line formation, circle formation, or custom formations defined by the algorithms.
 
-References
+## References
 
 https://www.ros.org/
 https://www.turtlebot.com/
